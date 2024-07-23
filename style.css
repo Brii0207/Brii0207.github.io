@@ -1,52 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f6f5f6;
+    background-color:#cae1e9;
 }
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-header {
-    background: #28a55d;
-    color: #0b0b0b;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #090909 3px solid;
-}
-header a, footer a {
-    color: #070707;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-.main-header h1 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.nav-links {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-.nav-links a {
-    margin: 0 15px;
-}
+
 section {
     padding: 20px 0;
 }
 .section-title {
     text-align: center;
     margin-bottom: 20px;
-    color: #040404;
+    color: #030303;
+    font-family:serif;
 }
-.personal-info, .experience, .education, .skills {
-    background: #c3c1c3;
+.experience{
+    background:#f2a0ac;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.personal-info {
+    margin-top: 5%;
+    background: #bccbec;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.education{
+    background: #fed3dd;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skills {
+    background:#94a9c6;
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,10 +48,126 @@ section {
 .personal-info p, .experience p, .education p, .skills p {
     margin: 5px 0;
 }
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+}
+.social-icons img {
+    width: 40px; 
+    height: 40px; 
+}
+
 footer {
-    background:#28a55d;
+    background:#f2839d;
     color: #0b0b0b;
     text-align: center;
     padding: 10px 0;
     font-family: sans-serif;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+  
+     }
+     header {
+        background:#f2839d;
+        color: #0b0b0b;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #090909 3px solid;
+    }
+    header a, footer a {
+        color: #050505;
+        text-decoration:double;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: 'Times New Roman';
+    }
+    .main-header h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .nav-links a {
+        margin: 0 15px;
+    }
+    }
+    @media (min-width:1024px) {
+        * {
+           font-family: Arial, Helvetica, sans-serif;
+          
+        }
+        header {
+            background: #f2839d;
+            color: #0b0b0b;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #090909 3px solid;
+        }
+        header a, footer a {
+            color: #070707;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-family: 'Times New Roman';
+        }
+        .main-header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .nav-links a {
+            margin: 0 15px;
+        }
+    }
+    @media (max-width:767px) {
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+      
+         }
+         header {
+            background:#f2839d;
+            color: #040404;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #090909 3px solid;
+        }
+        header a, footer a {
+            color: #070707;
+            text-decoration:dotted;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-family: 'Times New Roman';
+        }
+        .main-header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-family: 'Franklin Gothic Medium';
+            font-size: 70px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .nav-links a {
+            margin: 0 15px;
+        }
+        }
