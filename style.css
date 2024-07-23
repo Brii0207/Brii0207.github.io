@@ -67,27 +67,7 @@ footer {
     padding: 10px 0;
     font-family: sans-serif;
 }
-section[imagenes] {
-    display: flex;
-    width: 600px;
-    height: 430px;
-    margin: 0 auto; 
-}
 
-section[imagenes] img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-
-section[imagenes] img:hover {
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
 @media (min-width: 768px) and (max-width: 1024px) {
     * {
         font-family: Arial, Helvetica, sans-serif;
@@ -120,6 +100,27 @@ section[imagenes] img:hover {
     }
     .nav-links a {
         margin: 0 15px;
+    }
+    section[imagenes] {
+        display: flex;
+        width: 600px;
+        height: 430px;
+        margin: 0 auto; 
+    }
+    
+    section[imagenes] img {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    
+    section[imagenes] img:hover {
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
     }
     }
     @media (min-width:1024px) {
@@ -154,6 +155,27 @@ section[imagenes] img:hover {
         }
         .nav-links a {
             margin: 0 15px;
+        }
+        section[imagenes] {
+            display: flex;
+            width: 600px;
+            height: 430px;
+            margin: 0 auto; 
+        }
+        
+        section[imagenes] img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+        }
+        
+        section[imagenes] img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
         }
     }
     @media (max-width:767px) {
@@ -191,4 +213,26 @@ section[imagenes] img:hover {
         .nav-links a {
             margin: 0 15px;
         }
+        section[imagenes] {
+            display: flex;
+            width: 600px;
+            height: 430px;
+            margin: 0 auto; 
+        }
+        
+        section[imagenes] img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+        }
+        
+        section[imagenes] img:hover {
+            cursor: crosshair;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+
         }
